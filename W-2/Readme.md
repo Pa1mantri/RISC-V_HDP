@@ -1,10 +1,15 @@
 
+1's and 2's complement's of binary numbers is used to represent negative numbers. Here -19 is represented in 1's complement in the first case and 2's complement in the second case.
+ 
 ```
 10-19 = 01010 - 10011 = 01010 + 01100 = 10110 = 01001   using 1's complement
 10-19 = 01010 - 10011 = 01010 + 01101 = 10111 = 01001   using 2's complement
 
 36-12 = 100100 - 001100 = 100100 + 110011 = 010111 + add carry 1 = 011000 using 1's complement
-36-12 = 100100 - 001100 = 100100 + (110011+'1) = 1001 + 1101 = 011000     using 2's complement
+
+In 1's complement carry is added back (the case above) and in 2's complement it is ignored( the case below).
+
+36-12 = 100100 - 001100 = 100100 + (110011+'1) = 100100 + 110100 = 011000     using 2's complement
 
 
 ```
