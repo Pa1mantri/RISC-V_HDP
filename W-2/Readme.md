@@ -43,13 +43,20 @@ CPU1 has a clock cycle time of 200ps and CPI of 2.5, CPU2 has a clock cycle time
 
 <img width="465" alt="7" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/1df368c1-dbc1-4f07-9795-ff3ab6718a04">
 
-CPU1 has a clock frequency of 5MHz. CPU2 has a clock frequency of 2.5MHz. If we measure the performance just by the clock frequency than CPU1 has to be faster, but CPU time of(cpu1) is 500ps and cpu2 is 600ps.
+CPU1 has a clock frequency of 5MHz, while CPU2 has a clock frequency of 2.5MHz. If we measure performance solely by clock frequency, CPU1 appears to be faster. However, CPU1 has a CPU time of 500ps, whereas CPU2 has a CPU time of 600ps
 
-CPU1 = 5/6 CPU2.
+CPU1 = 5/6 CPU2 = 0.833CPU2.
 
 <img width="479" alt="8" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/a3d04499-14c6-4e9f-81c3-3971b9ecb5f1">
 
 The higher the CPI, the lower the CPU performance.
+
+Test Case:3
+
+A single CPU is executing two different programs, each with a different number of instructions. 
+
+The total number of CPU clock cycles is 19 for blue and 18 for red. Since the clock cycle time is the same, the red one is faster, despite having more instructions (10) compared to the blue side (9).
+
 
 
 
