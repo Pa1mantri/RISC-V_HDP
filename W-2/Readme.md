@@ -55,9 +55,11 @@ Test Case:3
 
 A single CPU is executing two different programs, each with a different number of instructions. 
 
+<img width="466" alt="Screenshot 2024-03-14 181254" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/37078918-76f3-4bd6-98a4-549d9cea2efe">
+
 The total number of CPU clock cycles is 19 for blue and 18 for red. Since the clock cycle time is the same, the red one is faster, despite having more instructions (10) compared to the blue side (9).
 
-
+<img width="471" alt="Screenshot 2024-03-14 182110" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/2eadf2b9-5120-41c5-9b9f-8e18ff648106">
 
 
 
