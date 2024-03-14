@@ -4,41 +4,53 @@ An important aspect of designing a CPU is its performance. CPU performance does 
 
 If computer 'A' completes a task in 25 seconds and computer 'B' completes the same task in 30 seconds, before we draw conclusions about the speed of computer 'A,' we need to determine whether the given time refers to execution time or response time. If it is the execution time, then computer 'A' is 1.2 times faster than computer 'B'.
 
-1.png
+<img width="503" alt="1" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/2eac410f-c539-4633-88f1-8b0b19acbdaf">
 
 Execution Time: It is the time taken for data to be transferred from memory to the CPU and then from the CPU back to memory.
 
-2.png
+<img width="500" alt="2" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/a762797e-589c-48c5-b391-ef8617f0823b">
+
 
 Again the CPU execution time is divided into two types.
 1. User CPU time
 2. System CPU time
 
-3.png
+<img width="484" alt="3" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/dfe78b69-c278-4c71-9314-4364d9694b11">
 
 Finally, the user CPU time is what is taken into consideration when measuring CPU performance. We do not include the time taken by the operating system when measuring performance.
 
 The speed of your program is determined by the number of clock cycles it takes to complete the task, and the clock period is also important.
 
-4.png
+<img width="472" alt="4 1" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/0d97a1a1-4d14-48d7-bc6a-b6f72fa29f21">
 
-Test case:1 CPU 1 which runs at 1GHz executes a program in 20sec. CPU 2 runs the same programs in 10sec. Also given no.of.clock_cycles of CPU2 = 1.5 times of CPU1.
+Test case:1 
 
-5.png
+CPU 1 which runs at 1GHz executes a program in 20sec. CPU 2 runs the same programs in 10sec. Also given no.of.clock_cycles of CPU2 = 1.5 times of CPU1.
+
+<img width="551" alt="5" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/f43dfbb1-bca5-4f97-9796-decb625c4423">
 
 For every processor, **average clock cycles per instruction** is defined. That is called **CPI** (Clock cycles per instruction)
 
-6.png
+<img width="469" alt="6" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/9256f837-6e25-456e-ae17-001b0accd460">
 
 No.of.clock cycles = CPI * no.of.instructions for a program. 
 
 The above equation is used to find the number of clock cycles. CPI is defined at the hardware level. Instruction count can be found from the assembly program.
 
-7.png
+Test Case:2
+
+CPU1 has a clock cycle time of 200ps and CPI of 2.5, CPU2 has a clock cycle time of 400ps and CPI of 1.5. Which one is the fastest. Both CPU running the same program (same number of instrucitons)
+
+<img width="465" alt="7" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/1df368c1-dbc1-4f07-9795-ff3ab6718a04">
+
+CPU1 has a clock frequency of 5MHz. CPU2 has a clock frequency of 2.5MHz. If we measure the performance just by the clock frequency than CPU1 has to be faster, but CPU time of(cpu1) is 500ps and cpu2 is 600ps.
+
+CPU1 = 5/6 CPU2.
+
+<img width="479" alt="8" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/a3d04499-14c6-4e9f-81c3-3971b9ecb5f1">
 
 The higher the CPI, the lower the CPU performance.
 
-8.png
 
 
 
