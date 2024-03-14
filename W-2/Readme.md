@@ -63,3 +63,11 @@ The total number of CPU clock cycles is 19 for blue and 18 for red. Since the cl
 
 ## RISC-V micro architecture implementation
 
+There are different instruction classes for processor implementation.
+
+Memory-reference instructions - ld,sd
+Arithmetic logic instructions - add,sub,and,or
+Conditional branch instructions - beq
+
+Similarly there are 47 instructions in the base instruction set of a risc-v isa.
+
