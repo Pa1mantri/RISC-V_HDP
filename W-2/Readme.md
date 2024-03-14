@@ -61,5 +61,5 @@ The total number of CPU clock cycles is 19 for blue and 18 for red. Since the cl
 
 <img width="471" alt="Screenshot 2024-03-14 182110" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/2eadf2b9-5120-41c5-9b9f-8e18ff648106">
 
-
+## RISC-V micro architecture implementation
 
