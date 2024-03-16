@@ -71,3 +71,27 @@ Conditional branch instructions - beq
 
 Similarly there are 47 instructions in the base instruction set of a risc-v isa.
 
+Program Counter: It contains the address of the current instruction. Size of the program counter depends upon the number of locations in the instruction memory.
+
+Instruction Memory: It is a memory module made of SRAM. Alternatively, it can be made of registers, but that would require a lot of space.
+
+1.png
+
+Every instruction reads at least two registers and writes to one register. Therefore, a register file is needed. In RISC-V, we have 32 32-bit registers in the register bank.
+
+2.png
+
+In addition to the above elements, arithmetic and logical operations are also performed on the data from the registers using an ALU.
+
+Load and store instructions require memory access, i.e., accessing data memory.
+
+Normally, the PC is incremented by 4, as instructions are 32-bit in size and stored in four 8-bit locations. In the case of branch instructions, the PC has to jump to a certain specified location. The microarchitecture must account for both of these cases.
+
+3.png
+
+Multiplexers are introduced at every stage where more than one signal is driving. Apart from the control unit, the entire microarchitecture is defined based on the instructions.
+
+
+
+
+
