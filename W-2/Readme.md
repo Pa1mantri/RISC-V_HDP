@@ -98,6 +98,8 @@ After the control unit is introduced
 
 <img width="469" alt="Screenshot 2024-03-16 101216" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/5c0b7d5e-56cb-4dfe-9f19-1c5b4e96bc83">
 
+## Measuring CPU Performance of C programs 
+
 
 
 
