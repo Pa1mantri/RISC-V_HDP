@@ -77,22 +77,26 @@ Similarly there are 47 instructions in the base instruction set of a risc-v isa.
 
 **Instruction Memory**: It is a memory module made of SRAM. Alternatively, it can be made of registers, but that would require a lot of space.
 
-1.png
-
 Every instruction reads at least two registers and writes to one register. Therefore, a **register file** is needed. In RISC-V, we have 32 32-bit registers in the register bank.
 
-2.png
+<img width="491" alt="Screenshot 2024-03-16 092638" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/dd83a90f-c673-4ac6-b4f2-1b298b44cedd">
 
 In addition to the above elements, arithmetic and logical operations are also performed on the data from the registers using an **ALU**.
+
+<img width="486" alt="Screenshot 2024-03-16 093807" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/33a4e252-f95d-4841-a4a1-015b9f32037b">
 
 Load and store instructions require memory access, i.e., accessing **data memory**.
 
 Normally, the PC is incremented by 4, as instructions are 32-bit in size and stored in four 8-bit locations. In the case of branch instructions, the PC has to jump to a certain specified location. The microarchitecture must account for both of these cases.
 
-3.png
-
 Multiplexers are introduced at every stage where more than one signal is driving. Apart from the **control unit**, the entire microarchitecture is defined based on the instructions.
 
+
+<img width="488" alt="Screenshot 2024-03-16 100834" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/bc6d9cad-28ea-4fed-8f2f-01bd662acef8">
+
+After the control unit is introduced 
+
+<img width="469" alt="Screenshot 2024-03-16 101216" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/5c0b7d5e-56cb-4dfe-9f19-1c5b4e96bc83">
 
 
 
