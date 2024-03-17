@@ -100,6 +100,20 @@ After the control unit is introduced
 
 ## Measuring CPU Performance of C programs 
 
+Compilation of C code using RISC-V compiler 
+
+commands used to compile the C program with riscv and generate the output using spike simulator
+
+```
+riscv64-unknown-elf-gcc -march=rv64i -mabi=lp64 -ffreestanding -o ./filename.o filename.c
+spike pk filename.o
+```
+
+Command to disassemble the assembly code
+```
+riscv64-unknown-elf-objdump -d filename.o
+```
+
 
 
 
