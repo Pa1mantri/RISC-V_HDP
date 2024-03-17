@@ -118,7 +118,8 @@ After compilation, the same C program is compiled again without including librar
 
 The below image shows the difference in the file size of the assembly code between the programs with libraries included and those without libraries."
 
-1.png
+<img width="927" alt="Screenshot 2024-03-17 113416" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/6f89b3a8-1390-4d07-b294-12c61a6b31e1">
+
 
 
 
