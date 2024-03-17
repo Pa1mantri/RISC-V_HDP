@@ -203,5 +203,14 @@ main:
         jr      ra
 
 ```
+Total instructions are 60. As per the above assumption of number of cycles per each instruction, total clock cycle count is 172.
 
+**clock cycles per instruction** = **Total no.of clock cycles/number of instructions**
 
+CPI = 172/60 = 2.866
+
+**CPU time = CPI * number of instructions per program * clock time**
+
+Assume clock Time = 200ps (5MHz clock frequency)
+
+CPU time = 2.866 * 60 * 200ps = 34392 ps = 34.3ns
