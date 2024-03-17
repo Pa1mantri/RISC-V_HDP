@@ -114,6 +114,12 @@ Command to disassemble the assembly code
 riscv64-unknown-elf-objdump -d filename.o
 ```
 
+After compilation, the same C program is compiled again without including libraries such as printf, scanf, and all the other included libraries.
+
+The below image shows the difference in the file size of the assembly code between the programs with libraries included and those without libraries."
+
+1.png
+
 
 
 
