@@ -48,8 +48,50 @@ As mentioned above, there is an interface between the instruction set architectu
 <img width="601" alt="Screenshot 2023-11-18 112955" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/acaf4298-16be-4a14-aabd-1ef51398e006">
 
 
+## RISC-V gcc compile and disassemble
 
+C program to calculate the sum of first n numbers
 
+```
+
+```
+
+Output of C program compiled using gcc compiler 
+
+1.png
+
+Now the same C program is compiled using the RISC-V compiler
+
+Commands used to compile using RISC-V and Spike simulator
+
+``` 
+riscv64-unknown-elf-gcc -O1 -march=rv64i -mabi=lp64 -o sum1ton.o sum1ton.c
+riscv64-unknown-elf-objdump -d sum1ton.o | less
+```
+
+-O flag in the above command is used to specify the optimisation level. 
+
+-O1 is the first level of Optimisation
+-Ofast is the higher level of Optimisation
+
+Differences in the optimization of assembly code using these keys can be found in the images below.
+
+2.png
+
+To debug the generated object file, Spike simulator is used. Command used is 
+
+```
+spike -d pk sum1ton.o
+```
+3.png
+
+To run the program until a specific PC value 
+
+```
+unitl pc 0 to <specific_address_in_the_assembly_code>
+```
+
+4.png
 
 
 
