@@ -33,7 +33,7 @@ These APP’s enter into a block called System Software. This System Software co
 
 Example of a stopwatch app. Where OS converts into C functions and the output of compiler and assembler.(Assembler output (in the image it is in Hexa-decimal format) is adjacent to compiler output). **When you run an application**, parts of its code and data are loaded into the computer's **RAM for faster access**. This includes the **instructions** that the processor needs to execute.
 
-<img width="601" alt="Screenshot 2023-11-18 105324" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/f66f195e-1a0e-4a3a-bb0d-8b4b9f756d20">
+<img width="601" alt="Screenshot 2024-03-18 175934" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/314d1844-179b-48fd-9d4a-1c2e0db1e08b">
 
 Instructions (compiler output) acts as an abstract interface between C program and Hardware. This abstract interface is called **Instruction Set Architecture or architecture of computer.** This compiler output (instructions) acts as an architecture of the Laptop. This architecture represents the hardware. This is the language with which a user speaks to the computer.
 
@@ -43,9 +43,12 @@ The architecture of a CPU refers to its fundamental design principles and **the 
 
 As mentioned above, there is an interface between the instruction set architecture and the hardware(Chip Layout) that is Hardware Description Language. The add x6, x10, x6 is instruction which is implemented in the RTL snippet. Then the hardware understands the instruction as written in the RTL snippet.(where to store the output of that instruction, what values to add ; everything is implemented as mentioned in the RTL). That RTL is synthesized into a netlist. Netlist to hardware comes under Physical Implementation (RTL 2 GDSII)
 
-1.png 
+<img width="607" alt="Screenshot 2024-03-18 175529" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/520f9aae-395a-4736-a10e-a8f5127edaac">
 
-2.png
+<img width="600" alt="Screenshot 2024-03-18 175613" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/7d128adf-96ed-4d99-bee0-091d68a6909f">
+
+
+
 
 
 ## RISC-V gcc compile and disassemble
@@ -53,6 +56,17 @@ As mentioned above, there is an interface between the instruction set architectu
 C program to calculate the sum of first n numbers
 
 ```
+#include<stdio.h>
+
+int main()
+{
+	int i, sum=0 , n=100;
+	for(i=0;i<=n;i=i+1) {
+		sum +=i;
+	}
+	printf("Sum of the numbers from 1 to n is %d\n", sum);
+return 0;
+}
 
 ```
 
