@@ -168,20 +168,17 @@ main:
         j       .L4
 
 ```
-Total instructions are 28. As per the above assumption of number of cycles per each instruction, total clock cycle count is .
+Total instructions are 28. As per the above assumption of number of cycles per each instruction, total clock cycle count is 89.
 
 **clock cycles per instruction** = **Total no.of clock cycles/number of instructions**
 
-CPI = 78/28 = 2.78
+CPI = 89/28 = 3.17
 
 **CPU time = CPI * number of instructions per program * clock time**
 
 Assume clock Time = 200ps (5MHz clock frequency)
 
-CPU time = 2.78 * 28 * 200ps = 15568 ps = 15.568ns
-
-**Matrix Multiplication**
-
+CPU time = 3.17 * 28 * 200ps = 17752 ps = 17.752ns
 
 
 **ALU**
@@ -257,17 +254,17 @@ main:
         jr      ra
 
 ```
-Total instructions are 60. As per the above assumption of number of cycles per each instruction, total clock cycle count is 172.
+Total instructions are 60. As per the above assumption of number of cycles per each instruction, total clock cycle count is 196.
 
 **clock cycles per instruction** = **Total no.of clock cycles/number of instructions**
 
-CPI = 172/60 = 2.866
+CPI = 196/60 = 3.266
 
 **CPU time = CPI * number of instructions per program * clock time**
 
 Assume clock Time = 200ps (5MHz clock frequency)
 
-CPU time = 2.866 * 60 * 200ps = 34392 ps = 34.3ns
+CPU time = 3.26 * 60 * 200ps = 39120 ps = 39.120ns
 
 **Matrix Multiplicatoin**
 
@@ -398,15 +395,15 @@ main:
         addi    sp,sp,48
         jr      ra
 ```
-Total instructions are 110. As per the above assumption of number of cycles per each instruction, total clock cycle count is .
+Total instructions are 110. As per the above assumption of number of cycles per each instruction, total clock cycle count is 355.
 
 **clock cycles per instruction** = **Total no.of clock cycles/number of instructions**
 
-CPI = /110 = 
+CPI = 355/110 = 3.227
 
 **CPU time = CPI * number of instructions per program * clock time**
 
 Assume clock Time = 200ps (5MHz clock frequency)
 
-CPU time = 2.866 * 110 * 200ps = 34392 ps = 34.3ns
+CPU time = 3.227 * 110 * 200ps = 70994 ps = 70.994ns
 
