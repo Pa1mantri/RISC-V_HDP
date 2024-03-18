@@ -102,4 +102,28 @@ unitl pc 0 to <specific_address_in_the_assembly_code>
 <img width="929" alt="Screenshot 2024-03-18 152929" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/7b1043c6-ae83-4045-b79a-2b39abb906b2">
 
 
+## Application Binary Interface
+
+The interface through which application programmers and the operating system access the hardware resources of the processor (registers) is called ABI."
+
+The blue line in the image below denotes that
+
+1.png
+
+2.png
+
+The same C program (sum1ton.c) is now being implemented using ABI
+
+First, modify the C program to pass a few parameters to the assembly language program written in RISC-V ISA, compute the result, and then return it to the C program.
+
+3.png
+
+The arguments are passed to the a0,a1 registers and the result is returned in the a0 register
+
+4.png
+
+
+
+
+
 
