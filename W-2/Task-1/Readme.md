@@ -58,16 +58,25 @@ C program to calculate the sum of first n numbers
 
 Output of C program compiled using gcc compiler 
 
-1.png
+<img width="928" alt="Screenshot 2024-03-18 152135" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/2b8fc3dc-c6ce-4bcb-a2e0-9d12910971c2">
 
 Now the same C program is compiled using the RISC-V compiler
 
-Commands used to compile using RISC-V and Spike simulator
+Commands used to compile using RISC-V and Spike simulator 
 
 ``` 
 riscv64-unknown-elf-gcc -O1 -march=rv64i -mabi=lp64 -o sum1ton.o sum1ton.c
+spike pk sum1ton.o
+```
+
+Command to disassemble the code
+```
 riscv64-unknown-elf-objdump -d sum1ton.o | less
 ```
+
+<img width="928" alt="Screenshot 2024-03-18 152327" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/c7fcf1e0-4548-410f-a536-4130019fef3c">
+
+<img width="925" alt="Screenshot 2024-03-18 151904" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/d49affc9-f184-4719-9a23-3086fc404ee4">
 
 -O flag in the above command is used to specify the optimisation level. 
 
@@ -76,24 +85,21 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 
 Differences in the optimization of assembly code using these keys can be found in the images below.
 
-2.png
+<img width="929" alt="Screenshot 2024-03-18 151844" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/30e47439-271a-45bd-93ab-e02a662844b7">
+
+<img width="929" alt="Screenshot 2024-03-18 152040" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/ec101628-c518-4a69-916f-59e8c952189f">
 
 To debug the generated object file, Spike simulator is used. Command used is 
 
 ```
 spike -d pk sum1ton.o
 ```
-3.png
-
 To run the program until a specific PC value 
 
 ```
 unitl pc 0 to <specific_address_in_the_assembly_code>
 ```
-
-4.png
-
-
+<img width="929" alt="Screenshot 2024-03-18 152929" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/7b1043c6-ae83-4045-b79a-2b39abb906b2">
 
 
 
