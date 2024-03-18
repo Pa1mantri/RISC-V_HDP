@@ -108,19 +108,32 @@ The interface through which application programmers and the operating system acc
 
 The blue line in the image below denotes that
 
-1.png
+<img width="598" alt="Screenshot 2024-03-18 171439" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/db05b413-47bb-4e32-b331-00f95ddf13cd">
 
-2.png
+ABI register names
+
+<img width="599" alt="Screenshot 2024-03-18 171852" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/43731fb9-df8d-49ef-9274-b6faaa073c1e">
 
 The same C program (sum1ton.c) is now being implemented using ABI
 
 First, modify the C program to pass a few parameters to the assembly language program written in RISC-V ISA, compute the result, and then return it to the C program.
 
-3.png
+<img width="603" alt="Screenshot 2024-03-18 172458" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/5b13bbb5-abd7-427c-a888-5f1eb38bb24c">
 
 The arguments are passed to the a0,a1 registers and the result is returned in the a0 register
 
-4.png
+<img width="587" alt="Screenshot 2024-03-18 172930" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/3127b062-7da5-4d88-9543-a0f84c65c07a">
+
+Compiling the c code and assembly code using RISC-V 
+
+<img width="930" alt="Screenshot 2024-03-18 174513" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/5638e90b-e224-48a7-ad50-01e09a22c60b">
+
+After disassembling the assembly code, one can observe the a0 and a1 registers being used.
+
+<img width="929" alt="Screenshot 2024-03-18 174501" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/e55aed8e-0d38-4ce9-9eb7-b8ecbece653c">
+
+
+
 
 
 
