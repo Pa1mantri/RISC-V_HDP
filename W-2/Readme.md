@@ -124,9 +124,9 @@ Assume the number of clock cycles for each instruction in RISC-V
 
 Arithmetic and logic instructions (add,sub,mul,div) - 2 cycles
 
-Memory Reference instrucitons (ld,sd,mv)            - 3 cycles 
+Memory Reference instrucitons (ld,sd,mv)            - 4 cycles 
 
-Branch instructions   (beq,bltu,jal)                - 4 cycles
+Branch instructions   (beq,bltu,jal)                - 3 cycles
 
 other instructions                                  - 2 cycles
 
@@ -398,15 +398,15 @@ main:
         addi    sp,sp,48
         jr      ra
 ```
-Total instructions are 60. As per the above assumption of number of cycles per each instruction, total clock cycle count is 172.
+Total instructions are 110. As per the above assumption of number of cycles per each instruction, total clock cycle count is .
 
 **clock cycles per instruction** = **Total no.of clock cycles/number of instructions**
 
-CPI = 172/60 = 2.866
+CPI = /110 = 
 
 **CPU time = CPI * number of instructions per program * clock time**
 
 Assume clock Time = 200ps (5MHz clock frequency)
 
-CPU time = 2.866 * 60 * 200ps = 34392 ps = 34.3ns
+CPU time = 2.866 * 110 * 200ps = 34392 ps = 34.3ns
 
