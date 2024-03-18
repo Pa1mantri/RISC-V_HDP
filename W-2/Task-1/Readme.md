@@ -43,9 +43,9 @@ The architecture of a CPU refers to its fundamental design principles and **the 
 
 As mentioned above, there is an interface between the instruction set architecture and the hardware(Chip Layout) that is Hardware Description Language. The add x6, x10, x6 is instruction which is implemented in the RTL snippet. Then the hardware understands the instruction as written in the RTL snippet.(where to store the output of that instruction, what values to add ; everything is implemented as mentioned in the RTL). That RTL is synthesized into a netlist. Netlist to hardware comes under Physical Implementation (RTL 2 GDSII)
 
-<img width="605" alt="Screenshot 2023-11-18 110422" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/391f737e-fa66-4d65-af42-4e32d0ac85b8">
+1.png 
 
-<img width="601" alt="Screenshot 2023-11-18 112955" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/acaf4298-16be-4a14-aabd-1ef51398e006">
+2.png
 
 
 ## RISC-V gcc compile and disassemble
