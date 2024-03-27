@@ -7,3 +7,6 @@ A switch that can be controlled using a sound sensor module. Initially, the thre
 ## Block diagram
 
 <img width="561" alt="Screenshot 2024-03-27 162505" src="https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/aea480b7-c72a-4620-8d8e-97cc9c0c2b73">
+
+## Flow chart of the code
+
