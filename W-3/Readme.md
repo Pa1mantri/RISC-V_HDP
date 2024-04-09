@@ -71,10 +71,11 @@ for(j=0;j<1000000;j=j+1) {
 }
 }
 }
-```
 
+```
 ## Observing the output using gcc compiler 
 
+![Screenshot 2024-04-09 114829](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/3d89787e-9490-4db0-b0f7-313d1d1fe905)
 
 ## Observing the output using RISC-V compiler 
 
@@ -84,6 +85,6 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o clapswitch.o clapswitc
 spike pk clapswitch.o
 ```
 
-
+![Screenshot 2024-04-09 115146](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/fc6fae3f-c03c-4745-84a9-9189581c0247)
 
 
