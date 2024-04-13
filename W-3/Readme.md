@@ -299,8 +299,8 @@ Disassembly of section .text:
 
 ## Unique instructions in assembly code
 
-To calculate the unique instructions in the above generated assembly code, a [python script]() is used.
-Running the python script  ``python3 script.py``
+To calculate the unique instructions in the above generated assembly code, a [python script](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-3/script.py) is used.
+Running the python script using the command  ``python3 script.py``
 
 ```
 Number of different instructions: 11
