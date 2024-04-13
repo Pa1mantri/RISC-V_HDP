@@ -88,9 +88,7 @@ spike pk clapswitch.o
 ![Screenshot 2024-04-09 115146](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/fc6fae3f-c03c-4745-84a9-9189581c0247)
 
 
-## Register architecture of X30
-
-X30 register is used for GPIO pins.
+## Register architecture of X30 for GPIOs:
 
 X30[0] - input data from sensor
 x30[1] - output to LED
@@ -206,3 +204,16 @@ return (0);
 
 
 ```
+
+## Assembly Code Conversion
+
+Compile the inline assembly C program with RISCV 32 bit architecture and dump the assembly program into clapswitch_assembly.txt file. 
+
+```
+riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -ffreestanding -nostdlib -o out clapswitch_inline.c
+riscv64-unknown-elf-objdump -d -r out >clapswitch_assembly.txt
+
+```
+
+## Assembly Code
+
