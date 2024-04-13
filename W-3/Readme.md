@@ -88,3 +88,16 @@ spike pk clapswitch.o
 ![Screenshot 2024-04-09 115146](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/fc6fae3f-c03c-4745-84a9-9189581c0247)
 
 
+## Register architecture of X30
+
+X30 register is used for GPIO pins.
+
+X30[0] - input data from sensor
+x30[1] - output to LED
+x30[2] - output to switchh
+
+## C code with inline assembly
+
+```
+
+```
