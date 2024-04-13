@@ -297,3 +297,8 @@ Disassembly of section .text:
 
 ```
 
+## Unique instructions in assembly code
+
+To calculate the unique instructions in the above generated assembly code, a python script is used.
+Running the python script  <python3 script.py>
+
