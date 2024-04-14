@@ -1,0 +1,1 @@
+After debugging the C code using spike, the inline assembly C code is converted into an Optimised RTL specific to the instruction set. The Processor and testbench files are generated using the chipcron tool. 
