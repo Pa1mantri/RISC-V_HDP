@@ -1,1 +1,1 @@
-After debugging the C code using spike, the inline assembly C code is converted into an Optimised RTL specific to the instruction set. The Processor and testbench files are generated using the chipcron tool. 
+After debugging the C code using spike, the inline assembly C code is converted into an Optimised RTL specific to the instruction set. The [Processor](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/processor.v) and [testbench](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/testbench.v) files are generated using the chipcron tool. 
