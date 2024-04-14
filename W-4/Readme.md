@@ -9,4 +9,4 @@ gtkwave waveform.vcd
 
 ```
 
-
+![Screenshot 2024-04-14 143235](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/edfab88e-2f9c-4ea3-843c-9825aa911219)
