@@ -9,3 +9,5 @@ Week-2: Introduction to RISC-V ISA Exploring the RISC-V ISA architecture.Underst
 Week-3 Selecting an application, write a C code demonstrating its functionality, and subsequently include inline assembly code within the same file to access hardware resources.
 
 Week-4 Generating the Optimised RTL logic specific to the C program and testbench using ChipCron tool.
+
+Week-5 GLS Simulation and synthesis of the generated RTL.
