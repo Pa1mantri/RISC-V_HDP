@@ -90,9 +90,10 @@ spike pk clapswitch.o
 
 ## Register architecture of X30 for GPIOs:
 
-X30[0] - input data from sensor
-x30[1] - output to LED
-x30[2] - output to switchh
+X30[0] - input data from sensor  
+x30[1] - output to LED   
+x30[2] - output to switchh 
+
 
 ## C code with inline assembly
 
