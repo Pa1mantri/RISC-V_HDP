@@ -1,4 +1,7 @@
-After debugging the C code using spike, the inline assembly C code is converted into an Optimised RTL specific to the instruction set. The [Processor](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/processor.v) and [testbench](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/testbench.v) files are generated using the chipcron tool. 
+The inline assembly C code is converted into an Optimised RTL specific to the instruction set, after debugging the C code using spike.
+
+After making some changes in the JSON file, the assembly file and the .json file are uploaded into the chicpcron tool, which generates the processor and testbench files. Here are the [Processor](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/processor.v) and [testbench](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/testbench.v) files. 
+
 
 Before performing simulation of processor and testbench using iverilog simulator, some GPIO pins need to be edited in the verilog file.
 
