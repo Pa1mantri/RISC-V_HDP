@@ -1,5 +1,17 @@
 After debugging the C code using spike, the inline assembly C code is converted into an Optimised RTL specific to the instruction set. The [Processor](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/processor.v) and [testbench](https://github.com/Pa1mantri/RISC-V_HDP/blob/main/W-4/testbench.v) files are generated using the chipcron tool. 
 
+Before performing simulation of processor and testbench using iverilog simulator, some GPIO pins need to be edited in the verilog file.
+
+In the module wrapper, depenging upon the number of input and output pins, intialization of the ``input_gpio_pins`` and ``output_gpio_pins`` is modified. In this example, one input_gpio_pins and [1:0]output_gpio_pins.
+
+Similarly at the end 
+
+```
+output_pins = {29'b0, top_gpio_pins[2:1], input_gpio_pins}
+output_gpio_pins = top_gpio_pins[2:1];
+
+```
+
 ## Commands to run verilog file 
 
 ```
