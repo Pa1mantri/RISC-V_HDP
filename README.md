@@ -11,3 +11,5 @@ Product Based RISC-V Skilling Program from VSD Corp and Chipcron.
 **Week-4** Generating the Optimised RTL logic specific to the C program and testbench using ChipCron tool. GPIO configuration and functional simulation using UART.
 
 **Week-5** GLS Simulation and synthesis of the generated RTL. Synthesis is performed using the yosys tool and simulation using iverilog. Bypassing UART. 
+
+Physical Design of the processor.v core using OpenLane is the next step in the design flow. 
