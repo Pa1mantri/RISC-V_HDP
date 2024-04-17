@@ -14,7 +14,20 @@ write_verilog processor_synth.v
 show wrapper
 
 ```
+
+
+
+![Screenshot 2024-04-16 152230](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/6fac5e17-8ea3-4e60-898f-1b92be7f64f8)
+![Screenshot 2024-04-16 152252](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/bba41809-4217-4b56-b5d5-4055dc9ca0f0)
+
+
+After ``write_verilog `` command the netlist file with cells from the sky130 library.
+
+![Screenshot 2024-04-16 152641](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/5ce92ce1-0c64-40d4-8c1e-43607af8ce5d)
+
 ``show wrapper`` command gives the following gnerated netlist picture.
+
+![Screenshot 2024-04-16 152802](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/17763d8c-c726-48a9-bf57-e30adad66608)
 
 
 This netlist along with primitives.v and sky130_fd_sc_hd.v and sky130_sram_1kbyte_1rw1r_32x256.v files are used with iverilog to perform GLS simulation.
