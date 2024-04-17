@@ -15,10 +15,10 @@ show wrapper
 
 ```
 
-
+![Screenshot 2024-04-16 152252](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/bba41809-4217-4b56-b5d5-4055dc9ca0f0)
 
 ![Screenshot 2024-04-16 152230](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/6fac5e17-8ea3-4e60-898f-1b92be7f64f8)
-![Screenshot 2024-04-16 152252](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/bba41809-4217-4b56-b5d5-4055dc9ca0f0)
+
 
 
 After ``write_verilog `` command the netlist file with cells from the sky130 library.
