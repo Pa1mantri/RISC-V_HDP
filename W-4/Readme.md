@@ -24,12 +24,17 @@ gtkwave waveform.vcd
 
 ```
 
-![Screenshot 2024-04-14 143235](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/edfab88e-2f9c-4ea3-843c-9825aa911219)
+![Screenshot 2024-04-17 213049](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/211d808f-ba1e-4201-bc28-7e16bf494cc3)
+
 
 The above .vcd generated is about the size of 16GB. By bypassing the Uart (by commenting the assembly instructions in the testbench) and then simulating it resutls in a .vcd file in 16Mb.
 
-![Screenshot 2024-04-15 100516](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/c56fb165-e917-4d4f-a4c6-4cc1a12b6e0e)
+
+![Screenshot 2024-04-17 215158](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/a8e1edf0-cffd-467f-a0b6-d92e31f18de4)
+
 
 Waveform of the RTL functional simulation 
 
-![Screenshot 2024-04-15 144732](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/0134acd0-2221-4284-a150-8112c74801b5)
+
+![Screenshot 2024-04-17 215140](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/52c2517d-19b3-4a67-91c8-fe78e94ee70d)
+
