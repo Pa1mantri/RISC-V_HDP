@@ -11,8 +11,11 @@ synth -top wrapper
 dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
 abc -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
 write_verilog processor_synth.v
+show wrapper
 
 ```
+``show wrapper`` command gives the following gnerated netlist picture.
+
 
 This netlist along with primitives.v and sky130_fd_sc_hd.v and sky130_sram_1kbyte_1rw1r_32x256.v files are used with iverilog to perform GLS simulation.
 
