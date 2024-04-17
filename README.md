@@ -10,4 +10,4 @@ Product Based RISC-V Skilling Program from VSD Corp and Chipcron.
 
 **Week-4** Generating the Optimised RTL logic specific to the C program and testbench using ChipCron tool.
 
-**Week-5** GLS Simulation and synthesis of the generated RTL.
+**Week-5** GLS Simulation and synthesis of the generated RTL. Synthesis is performed using the yosys tool and simulation using iverilog.
