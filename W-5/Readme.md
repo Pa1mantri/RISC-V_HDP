@@ -43,5 +43,5 @@ This netlist along with primitives.v and sky130_fd_sc_hd.v and sky130_sram_1kbyt
 
 Functional simulation matches with the GLS simulation. 
 
-TakeAway: In the sky130_sram_1kbyte_1rw1r_32x256.v file the mem[] instructions has to be replaced with the instructions generated in the processor.v file.
+TakeAway: In the sky130_sram_1kbyte_1rw1r_32x256.v file the mem[] instructions has to be replaced with the instructions generated in the processor.v file. The changed file is uploaded as sky130_sram_1kbyte_1rw1r_32x256_8(uart-bypassing).v
 
