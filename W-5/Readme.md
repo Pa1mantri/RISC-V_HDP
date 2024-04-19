@@ -40,3 +40,5 @@ This netlist along with primitives.v and sky130_fd_sc_hd.v and sky130_sram_1kbyt
 ![Screenshot 2024-04-17 223351](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/1f5bd9e5-6d88-456e-af10-ad572ab1225a)
 
 ![Screenshot 2024-04-19 193318](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/79c51c51-57ea-4886-b989-6476edaa8ce4)
+
+Functional simulation matches with the GLS simulation.
