@@ -41,4 +41,7 @@ This netlist along with primitives.v and sky130_fd_sc_hd.v and sky130_sram_1kbyt
 
 ![Screenshot 2024-04-19 193318](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/79c51c51-57ea-4886-b989-6476edaa8ce4)
 
-Functional simulation matches with the GLS simulation.
+Functional simulation matches with the GLS simulation. 
+
+TakeAway: In the sky130_sram_1kbyte_1rw1r_32x256.v file the mem[] instructions has to be replaced with the instructions generated in the processor.v file.
+
