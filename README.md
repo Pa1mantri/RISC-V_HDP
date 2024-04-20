@@ -13,3 +13,18 @@ Product Based RISC-V Skilling Program from VSD Corp and Chipcron.
 **Week-5** GLS Simulation and synthesis of the generated RTL. Synthesis is performed using the yosys tool and simulation using iverilog. Bypassing UART. 
 
 Physical Design of the processor.v core using OpenLane is the next step in the design flow. 
+
+**Acknowledgement**
+
+ - Kunal Ghosh, VSD Corp.Pvt.Ltd.
+ - Mayank Kabra, Chipcron Pvt.Ltd.
+
+**References**
+
+- https://github.com/riscv-collab/riscv-gnu-toolchain
+
+- https://github.com/Rachana-Kaparthi/Sound-based-smart-switch
+
+- https://www.vsdiat.com
+
+- https://github.com/riscv-software-src/riscv-isa-sim
