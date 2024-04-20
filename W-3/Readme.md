@@ -217,6 +217,11 @@ return (0);
 
 ```
 
+## Compilation of inline assembly C code using 64 bit risc-v compiler
+
+![Screenshot 2024-04-20 111441](https://github.com/Pa1mantri/RISC-V_HDP/assets/114488271/6ced679e-39f6-4167-bf2c-916120d98b50)
+
+
 ## Assembly Code Conversion
 
 Compile the inline assembly C program with RISCV 32 bit architecture and dump the assembly program into clapswitch_assembly.txt file. 
