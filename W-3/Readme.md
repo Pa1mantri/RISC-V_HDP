@@ -224,7 +224,7 @@ return (0);
 
 ## Assembly Code Conversion
 
-Compile the inline assembly C program with RISCV 32 bit architecture and dump the assembly program into clapswitch_assembly.txt file. 
+Compile the inline assembly C program with RISCV 32 bit architecture and dump the assembly program into clapswitch_assembly.txt file. Before converting the code into assembly instructions all the header files and printf and scanf statements should be commented.
 
 ```
 riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -ffreestanding -nostdlib -o out clapswitch_inline.c
