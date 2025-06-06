@@ -28,3 +28,8 @@ Physical Design of the processor.v core using OpenLane is the next step in the d
 - https://www.vsdiat.com
 
 - https://github.com/riscv-software-src/riscv-isa-sim
+
+
+**def file after the placement stage with standard cells and data and instruction memory macros**
+
+
